@@ -15,5 +15,5 @@ public class ReviewsDto {
 	private Double average_rating;
 	private Integer total_reviews;
 	private Rating_distributionDto rating_distribution;
-	private List<List<Recent_reviewDto>> recent_reviews;
+	private List<List<List<Recent_reviewDto>>> recent_reviews;
 }
