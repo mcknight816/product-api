@@ -15,14 +15,14 @@ import org.springframework.data.annotation.Id;
 @Document
 public class SimpleProduct {
 
-	private List<Image> images;
+	private List<List<Image>> images;
 	private String description;
 	private String created_at;
-	private List<Variant> variants;
+	private List<List<Variant>> variants;
 	private Inventory inventory;
 	private Specifications specifications;
-	private List<Color> colors;
-	private List<String> tags;
+	private List<List<Color>> colors;
+	private List<List<String>> tags;
 	private Shipping shipping;
 	private Reviews reviews;
 	private String updated_at;
@@ -30,7 +30,7 @@ public class SimpleProduct {
 	private String name;
 	@Id
 	private String id;
-	private List<Category> categories;
+	private List<List<Category>> categories;
 	private String sku;
 	private Seo seo;
 	private String published_at;
