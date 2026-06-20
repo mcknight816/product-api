@@ -15,5 +15,5 @@ public class Reviews {
 	private Double average_rating;
 	private Integer total_reviews;
 	private Rating_distribution rating_distribution;
-	private List<List<List<Recent_review>>> recent_reviews;
+	private List<List<List<List<Recent_review>>>> recent_reviews;
 }
